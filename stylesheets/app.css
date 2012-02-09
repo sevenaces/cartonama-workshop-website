@@ -1,0 +1,93 @@
+/* Foundation v2.1.5 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+.hg-logo	{
+	background: url('../images/hg-logo.png') no-repeat;
+	height: 76px;
+	width: 90px;
+	margin: 2em;
+}
+.cartonama-logo	{
+	background: url('../images/cartonama-logo.png') no-repeat center;
+	height: 440px;
+	width: 600px;
+	padding-left: 50px;
+}
+.top-cont, .footer-cont	{
+	background: url('../images/web-bg.png');
+}
+.bottom-cont	{
+	background: rgb(196,196,196); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(196,196,196,1) 0%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(196,196,196,1)), color-stop(18%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	border-top: 10px solid #000;
+	padding-top: 20px;
+}
+
+.bottom-cont p	{
+	text-align: justify;
+	font-size: medium;
+	padding: 10px;
+}
+
+h3	{
+	border-bottom: solid 1px #CCC;
+	text-align: right;
+}	/*
+.tile-popup	{
+	border: 1px solid #BBB;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	padding-left: 20px;
+	width: 170px;
+	height: 130px;
+	border: 1px solid rgba(0,0,0,0.1);
+   border-radius: 10px 10px 2px 2px;
+   background: rgba(0,0,0,0.15);
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 5px rgba(255,255,255,0.1), inset 0 10px 20px rgba(255,255,255,0.1), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 5px rgba(255,255,255,0.1), inset 0 10px 20px rgba(255,255,255,0.1), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 5px rgba(255,255,255,0.1), inset 0 10px 20px rgba(255,255,255,0.1), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 5px rgba(255,255,255,0.1), inset 0 10px 20px rgba(255,255,255,0.1), inset 0 -15px 30px rgba(0,0,0,0.3);
+	color: #000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}*/
+
+.tile-popup	{
+	background: #DDD;
+	border: 1px solid #BBB;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	padding-left: 20px;
+	width: 170px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 130px;
+	padding-top: 20px;
+	color: #222;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.tile-popup img	{
+	opacity:0.7;
+}
+
+.tile-popup:hover img	{
+	opacity: 1;
+}
+.tile-popup:hover	{
+	background: #EEE;
+	color: #000;
+}
