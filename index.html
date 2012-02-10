@@ -42,6 +42,11 @@
 	</script>
 	<script>
 	function scroll(scrollTo){
+		if(scrollTo == -1)
+			p = $("#speakers");
+		else if(scrollTo == -2)
+			p = $("#sessions");
+		scrollTo = p.position().top;
 		$('html,body').animate({scrollTop: scrollTo}, 600);		
 	}
 	</script>
@@ -66,12 +71,12 @@
 				<div class="row"><div class="panel"></div></div>
 				<div class="row">
 					<div class="panel" align="center"> 
-						<a href="#" class="nice large radius blue button" onclick="scroll(1570);">Speakers</a>
+						<a href="#" class="nice large radius blue button" onclick="scroll(-1);">Speakers</a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="panel" align="center">
-						<a href="#" class="nice large radius blue button" onclick="scroll(2400);">Sessions</a>
+						<a href="#" class="nice large radius blue button" onclick="scroll(-2);">Sessions</a>
 					</div>
 				</div>
 				<div class="row">
@@ -105,7 +110,7 @@
 			</div>
 		</div>
 		
-		<div class="row">
+		<div class="row" id="speakers">
 			<div class="twelve columns">
 				<h3>Speakers</h3>
 			</div>
@@ -124,7 +129,7 @@
 				<p>In 2008, Mikel Maron and Schuyler Erle conducted a <a href="http://wiki.openstreetmap.org/wiki/India/Events/Free_Map_India_2008" target="_blank">series of workshops</a> in India. From Delhi to Ludhiana, Pune, Mumbai, Kerala and Bangalore. The workshop series poked people like <a href="http://www.twitter.com/planemad" target="_blank">Arun Ganesh</a> and inspired them to map and build applications. Arun and his friends mapped Chennai extensively and created beautiful maps. They also put the data together into <a href="http://busroutes.in">busroutes.in</a>. BusRoutes.in remains as one of the best examples of using crowdsourced geographic information to create applications that are useful. Now we have Mikel and Schuyler back in India at the Cartonama workshop, where Arun and his friends will come to learn about new tools and techniques to improve their projects.</p>
 		</div>
 		
-		<div class="row">
+		<div class="row" id="sessions">
 			<div class="twelve columns">
 			<h3>Sessions</h3>
 			</div>
