@@ -10,12 +10,27 @@
 	height: 83px;
 	margin: 2em;
 }
+
+.hg-logo	{
+	background: url('../images/hg-logo.png') no-repeat;
+	width: 100px;
+	height: 83px;
+	margin: 2em;
+}
 .cartonama-logo	{
 	background: url('../images/cartonama-logo.png') no-repeat center;
 	height: 440px;
 	width: 600px;
 	padding-left: 50px;
 }
+
+.cartonama-logo-mobile	{
+	background: url('../images/cartonama-logo-mobile.png') no-repeat center;
+	height: 300px;
+	width: 220px;
+	padding-left: 50px;
+}
+
 .top-cont, .footer-cont	{
 	background: url('../images/web-bg.png');
 }
